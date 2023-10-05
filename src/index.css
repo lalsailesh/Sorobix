@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;600;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  color: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255); 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(189, 189, 189); 
+}
+.markdown > * {
+  all: revert;
+}
